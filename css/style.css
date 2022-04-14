@@ -119,17 +119,20 @@ h2{
     font-family: 'Roboto Slab', serif;
     font-size: 50px;
 }
-.row{
-    margin-left: 3%;
-    margin-top: 10%;
+.lash{
+    font-size: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 .pet{
     padding: 5px;
     display: flex;
+    margin-top: 5%;
+    margin-left: 6%;
 }
 .card{
     height: 250px;
-    width: 250px;
+    width: 310px;
+    box-shadow: 5px 10px gainsboro;
 }
 .tok{
     color: #00A3AC;
@@ -139,5 +142,4 @@ h2{
 .radio{
     margin-top: 10%;
     margin-left: 5%;
-
 }
