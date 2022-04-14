@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 body{
    background-color: #E5FBFC;
 }
@@ -81,23 +81,63 @@ h5:before{
     padding-left: 2%;
 }
 h1{
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto Slab', serif;
 }
 .btn{
     background-color: #00A3AC;
     border: none;
     color: white;
+    padding: 6px;
+}
+.btn:hover{
+    color: white;
 }
 .bttns{
     display: flex;
 }
-.play{
-    background: #E5FBFC;
-    padding-left: 5px;
+.image{
+    border-radius: 60%;
+    padding: 6px;
 }
 hr{
     box-shadow: 5px gray;
 }
+
+/* Styling the service section */
 .section{
     display: flex;
+    margin-top: 10%;
+}
+.param{
+   margin-left: 20%;
+    
+}
+.sect{
+   margin-left: 0.5%;
+}
+h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+}
+.row{
+    margin-left: 3%;
+    margin-top: 10%;
+}
+.pet{
+    padding: 5px;
+    display: flex;
+}
+.card{
+    height: 250px;
+    width: 250px;
+}
+.tok{
+    color: #00A3AC;
+    margin-top: 1pc;
+    margin-left: 5%;
+}
+.radio{
+    margin-top: 10%;
+    margin-left: 5%;
+
 }
