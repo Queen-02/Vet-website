@@ -164,7 +164,7 @@ h2{
 }
 
 /* branches */
-.branches{
+#branches{
     background:#cad8d9;
     margin-top: 5%;
     height: 500px;
@@ -195,7 +195,6 @@ h2{
 /* comments */
 .cast{
     margin: 5%;
-    background-color: #dafbff;
     height: 600px;
     /* width: 100%; */
 }
@@ -211,7 +210,7 @@ h2{
 }
 .body{
     height: 500px;
-    width: 600px;
+    width: 636px;
     margin-left: 5%;
 }
 .head{
@@ -224,8 +223,103 @@ h2{
     font-family: 'Merriweather Sans', sans-serif;
 }
 .profile{
-    display: inline;
+    display: flex;
 }
 h4{
+    /* text-align:center; */
+    font-size: 15px;
+    margin-top: 10%;
+    padding: 5px;
+
+}
+.icons{
+    display: flex;
+}
+.nextbtn{
+    display: flex;
+    margin-left: 50%;
+}
+.lad{
+    margin-top: 10%;
+    color: #00A3AC;
+}
+.fa{
+    color: orange;
+}
+
+/* Doctors section */
+#doctors{
+    margin-top: 12%;
+    background-color: #dafbff;
+    height: 650px;
+}
+.doc{
+    display: flex;
     
+}
+.cord{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+/* Contacts section */
+#contact{
+    margin-top: 9%;
+}
+.sub{
+    background-color: #c1f7fa;
+    height: 300px;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    border-radius: 5px;
+}
+.lan{
+    padding: 5%;
+}
+input{
+    width: 500px;
+    height: 80px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    top: 0;
+    border-radius: 5px;
+    margin-left: -15%;
+    z-index: 2;
+    border: none;
+    top: 2px;
+   font-size: 25px;
+    height: 60px;
+    cursor: pointer;
+    color: white;
+    background-color: #1e90ff;
+    transform: translateX(2px);
+}
+
+/* FOOOTEERR */
+footer{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.social{
+    display: flex;
+}
+.col-md-3 a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.col-md-3 a span{
+    font-size: 30px;
+}
+h6{
+    font-size: 30px;
+}
+.face{
+    padding: 5px;
+}
+.pop{
+    font-size: 20px;
 }
