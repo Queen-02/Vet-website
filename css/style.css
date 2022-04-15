@@ -95,18 +95,32 @@ h1{
 .bttns{
     display: flex;
 }
+.fa{
+    border: solid 15px white;
+    border-width: 5%;
+    border-radius: 50%;
+    
+}
+.fa-solid{
+    padding: 15px;
+}
 .image{
     border-radius: 60%;
     padding: 6px;
 }
 hr{
-    box-shadow: 5px gray;
+    box-shadow: 5px 5px gray;
+    background-color:aliceblue;
 }
 
 /* Styling the service section */
+#service{
+    background-color: aliceblue;
+}
 .section{
     display: flex;
-    margin-top: 10%;
+    margin-top: 5%;
+    background-color:aliceblue;
 }
 .param{
    margin-left: 20%;
@@ -132,14 +146,86 @@ h2{
 .card{
     height: 250px;
     width: 310px;
-    box-shadow: 5px 10px gainsboro;
+    box-shadow: 5px 10px rgba(220, 220, 220, 0.415);
 }
 .tok{
-    color: #00A3AC;
     margin-top: 1pc;
     margin-left: 5%;
 }
 .radio{
     margin-top: 10%;
     margin-left: 5%;
+}
+.pet-two{
+    padding: 5px;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 6%;
+}
+
+/* branches */
+.branches{
+    background:#cad8d9;
+    margin-top: 5%;
+    height: 500px;
+    
+}
+.branch{
+    display: flex;
+    margin-left: 5%;
+    padding: 2%;
+}
+.kick{
+    padding-right: 5%;
+}
+.bttn{
+    background-color: #00A3AC;
+    border: none;
+    color: white;
+    padding: 20px;
+    padding-top: 2%;
+    text-align: center;
+    border-radius: 5%;
+}
+.bara{
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+/* comments */
+.cast{
+    margin: 5%;
+    background-color: #dafbff;
+    height: 600px;
+    /* width: 100%; */
+}
+.lie{
+    display: flex;
+}
+.party{
+    margin-left: 5%;
+}
+.rose{
+    display: flex;
+    margin-top: 5%;
+}
+.body{
+    height: 500px;
+    width: 600px;
+    margin-left: 5%;
+}
+.head{
+    font-family: 'Roboto Slab', serif;
+    font-weight:900;
+    margin-top: 5%;
+}
+.pag{
+    font-size: 25px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.profile{
+    display: inline;
+}
+h4{
+    
 }
