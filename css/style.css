@@ -10,6 +10,7 @@ body{
 }
 .navbar-header a{
     text-decoration: none;
+    float: left;
 }
 .navbar{
     background-color: #E5FBFC;
@@ -27,11 +28,13 @@ nav{
 }
 nav >ul{
     list-style: none;
-    display: inline;
+    /* display: inline; */
 }
 nav ul li{
     padding: 6px;
     font-size: 20px;
+    display: inline;
+    list-style: none;
 }
 nav ul li a{
     color: black;
@@ -46,7 +49,7 @@ nav ul li a{
 }
 h5{
     position: relative;
-    max-width: 170px;
+    max-width: 130px;
     /* margin: 1% auto; */
     text-align: end;
     top: 0;
@@ -68,9 +71,9 @@ h5:before{
     border: solid 2px #CAE5E7;
     border-width: 80px;
     border-radius: 60%;
-    width: 650px;
-    height: 650px;
-    margin-left: 5%;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
     margin-top: -7%;
     
 }
@@ -78,7 +81,8 @@ h5:before{
     margin-top: -25%;
 }
 .book{
-    padding-left: 2%;
+    /* padding-left: 2%; */
+    margin-left: auto;
 }
 h1{
     font-family: 'Roboto Slab', serif;
@@ -137,7 +141,7 @@ h2{
     font-size: 20px;
     font-family: 'Merriweather Sans', sans-serif;
 }
-.pet{
+.row{
     padding: 5px;
     display: flex;
     margin-top: 5%;
@@ -147,6 +151,14 @@ h2{
     height: 250px;
     width: 310px;
     box-shadow: 5px 10px rgba(220, 220, 220, 0.415);
+    background-color: white;
+    /* justify-content: center; */
+}
+.column{
+    justify-items: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .tok{
     margin-top: 1pc;
@@ -194,7 +206,7 @@ h2{
 
 /* comments */
 .cast{
-    margin: 5%;
+    margin-top: 5%;
     height: 600px;
     /* width: 100%; */
 }
@@ -209,9 +221,9 @@ h2{
     margin-top: 5%;
 }
 .body{
-    height: 500px;
-    width: 636px;
-    margin-left: 5%;
+    height: 450px;
+    width: 500px;
+    margin-top: -5%;
 }
 .head{
     font-family: 'Roboto Slab', serif;
@@ -219,7 +231,7 @@ h2{
     margin-top: 5%;
 }
 .pag{
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Merriweather Sans', sans-serif;
 }
 .profile{
@@ -240,7 +252,7 @@ h4{
     margin-left: 50%;
 }
 .lad{
-    margin-top: 10%;
+    margin-top: 5%;
     color: #00A3AC;
 }
 .fa{
@@ -259,8 +271,8 @@ h4{
 }
 .cord{
     display: flex;
-    margin-left: 5%;
-    margin-top: 8%;
+    /* margin-left: 5%;
+    margin-top: 8%; */
 }
 /* Contacts section */
 #contact{
@@ -301,18 +313,12 @@ button {
 
 /* FOOOTEERR */
 footer{
-    margin-top: 10%;
-    margin-left: 5%;
+    margin-top: 5%;
+    margin-left: auto;
+  margin-right: auto;
 }
 .social{
     display: flex;
-}
-.col-md-3 a{
-    text-decoration: none;
-    font-size: 30px;
-}
-.col-md-3 a span{
-    font-size: 30px;
 }
 h6{
     font-size: 30px;
