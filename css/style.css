@@ -82,7 +82,7 @@ h5:before{
 }
 .book{
     /* padding-left: 2%; */
-    margin-left: auto;
+    /* margin-left: auto; */
 }
 h1{
     font-family: 'Roboto Slab', serif;
@@ -92,6 +92,7 @@ h1{
     border: none;
     color: white;
     padding: 6px;
+    margin-left: auto;
 }
 .btn:hover{
     color: white;
@@ -319,6 +320,9 @@ footer{
 }
 .social{
     display: flex;
+}
+.column5{
+    margin-top: 6%;
 }
 h6{
     font-size: 30px;
